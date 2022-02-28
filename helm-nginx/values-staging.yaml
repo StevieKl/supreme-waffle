@@ -13,4 +13,4 @@ requests:
 
 data:
   key: version
-  value: 1.18.0
+  value: 1.19.3
