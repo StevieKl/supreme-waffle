@@ -1,0 +1,20 @@
+namespace:
+  name: demo
+ 
+image:
+  repository: nginx
+  tag: v1.0.0
+  pullPolicy: IfNotPresent
+
+replicas: 3
+
+requests:
+  memory: 256Mi
+  cpu: 50m
+
+ports:
+  port: 8111
+
+data:
+  key: version
+  value: alpine
